@@ -29,6 +29,11 @@
 		"url": "https://github.com/WebFreak001/code-debug.git"
 	},
 	"contributes": {
+		"breakpoints": [
+			{
+				"language": "ooc"
+			}
+		],
 		"commands": [
 			{
 				"command": "code-debug.examineMemoryLocation",
@@ -48,6 +53,7 @@
 						"cpp",
 						"d",
 						"objective-c",
+						"ooc",
 						"fortran",
 						"fortran-modern",
 						"rust",
@@ -440,6 +446,7 @@
 						"pli",
 						"objective-c",
 						"objective-cpp",
+						"ooc",
 						"d",
 						"python",
 						"opencl",
