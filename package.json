@@ -1,7 +1,7 @@
 {
 	"name": "debug",
 	"displayName": "Native Debug",
-	"description": "GDB, LLDB & Mago-MI Debugger support for VSCode",
+	"description": "GDB, LLDB & Mago-MI Debugger support for VSCode with support for ooc.",
 	"keywords": [
 		"gdb",
 		"lldb",
@@ -29,11 +29,6 @@
 		"url": "https://github.com/WebFreak001/code-debug.git"
 	},
 	"contributes": {
-		"breakpoints": [
-			{
-				"language": "ooc"
-			}
-		],
 		"commands": [
 			{
 				"command": "code-debug.examineMemoryLocation",
